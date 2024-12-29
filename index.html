@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Portfolio | Manish Kumar</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Manish Kumar</p>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About Me</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- -------------- MAIN ------------------->
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                    </div>
+                    <div class="featured-name">
+                        <p>Hi, there ! I'm Manish</p>
+                        <p>Full Stack Developer</p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>Experienced Full Stack developer with a passion for creating robust
+                            and user-friendly Web Applications.
+                        </p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <button class="btn blue-btn"><a href="#contact" class="nav-link" style="color: white;">Connect
+                                With Me</a></button>
+                        <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">
+                            Resume
+                            <i class="uil uil-file-alt"></i>
+                        </button>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon" onclick="location.href='https://linkedin.com/in/manish1811'"><i
+                                class="uil uil-linkedin-alt"></i></div>
+                        <div class="icon" onclick="location.href='https://github.com/manish-rnc'"><i
+                                class="uil uil-github-alt"></i></div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="images/profile-image.jpeg" alt="avatar">
+                    </div>
+                </div> <!--  add this instead of image </>  -->
+            </section>
+
+            <!-- -------------- ABOUT BOX ---------------- -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div>
+                        <div class="about-info" style="margin-left: 70px;">
+                            <h3
+                                style="font-size: 1.5rem; font-weight: bold; margin-bottom: 0.5rem; border-bottom: 2px solid #eaeaea; padding-bottom: 0.3rem; color: #333;">
+                                My introduction
+                            </h3>
+                            <p>
+                                I am a final year student at Silicon Institute of Technology( 2025 Batch ), Bhubaneswar,
+                                Odisha.
+                            </p>
+                            <p>
+                                Currently working as an Software Development Engineer Intern at ZeonAI, an early stage
+                                startup.
+                            </p>
+                            <p>
+                                I have solved 1000+ Data Structure and Algorithms problems across various coding platforms.
+                            </p>
+                            <p>
+                                I am well versed in Frontend and Backend technologies like React, JavaScript, NodeJS,
+                                ExpressJS, Material UI.
+                            </p>
+                            <!-- <div class="about-btn">
+                                <button class="btn">Download Resume<i class="uil uil-import"></i></button>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SKILLS -->
+            <section class="section" id="skills">
+                <div class="top-header">
+                    <h1>Skills</h1>
+                </div>
+                <div class="flex">
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Frontend</h3>
+                        </div>
+                        <div>
+                            <div class="flex" id="frontend-html">
+                                <img class="skill-img" src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+                                    alt="">
+                                HTML
+                            </div>
+                            <div class="flex frontend">
+                                <img class="skill-img"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png"
+                                    alt="">
+                                CSS
+                            </div>
+                            <div class="flex frontend">
+                                <img class="skill-img"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png">
+                                JavaScript
+                            </div>
+                            <div class="flex frontend">
+                                <img class="skill-img" src="https://avatars.githubusercontent.com/u/30317862?s=280&v=4">
+                                Tailwind CSS
+                            </div>
+                            <div class="flex frontend">
+                                <img class="skill-img"
+                                    src="https://www.npmjs.com/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9iYjEzYWViNTFjNTQ0MjFhN2E1NTQwYTcxMzI4OTVkYz9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.FnWJxluT5VvnfpnQsm2K2I1GK-k0_NAmWtu3G-u3fE0"
+                                    alt="">
+                                Material UI
+                            </div>
+                            <div class="flex frontend">
+                                <img class="skill-img"
+                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K"
+                                    alt="">
+                                React
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Backend</h3>
+                        </div>
+                        <div class="flex">
+                            <img class="skill-img"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBwzWqFVu66ck-2u_nDBgLTZbR3cNjpUCbWg&s"
+                                alt="" style="width: 40px">
+                            Node JS
+                        </div>
+                        <div class="flex">
+                            <img class="skill-img"
+                                src="https://w7.pngwing.com/pngs/846/87/png-transparent-mean-solution-stack-express-js-node-js-javascript-github-text-trademark-logo-thumbnail.png"
+                                alt="" style="width: 40px">
+                            Express JS
+                        </div>
+                        <div class="flex">
+                            <img class="skill-img"
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
+                                alt="" style="width: 40px">
+                            MySQL
+                        </div>
+                        <div class="flex">
+                            <img class="skill-img"
+                                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
+                                alt="" style="width: 40px">
+                            Mongo DB
+                        </div>
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Tools and Platforms</h3>
+                        </div>
+                        <div class="flex">
+                            <img class="skill-img" src="https://avatars.githubusercontent.com/u/18133?s=280&v=4" alt="">
+                            Git
+                        </div>
+                        <div class="flex">
+                            <img class="skill-img"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbqj9Ii13d6hx5a9kyLnC5A8A96LDSaSZv_w&s"
+                                alt="">
+                            GitHub
+                        </div>
+                        <div class="flex">
+                            <img class="skill-img"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4dcPnKxXMwjxS3_KAMnw8kz2UhRerwlWMgA&s"
+                                alt="">
+                            AWS
+                        </div>
+                        <div class="flex">
+                            <img class="skill-img"
+                                src="https://yt3.googleusercontent.com/_q52i8bUAEvcb7JR4e-eNTv23y2A_wg5sCz0NC0GrGtcw1CRMWJSOPVHUDh_bngD0q4gMvVeoA=s900-c-k-c0x00ffffff-no-rj"
+                                alt="">
+                            Visual Studio Code
+                        </div>
+                        <div class="flex">
+                            <img class="skill-img"
+                                src="https://yt3.googleusercontent.com/XRzDTgEa9GybH_Uk21E9ri6_iYh-9gbyZzhiEBCnLjISgjTorjMiu7IwpChUMf2lLpEdX6ufDA=s900-c-k-c0x00ffffff-no-rj"
+                                alt="">
+                            Postman
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -------------- PROJECT BOX ---------------- -->
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <img src="./images/netflix-clone.png">
+                        <h3 style="padding-top: 6px; font-weight: bold;">Netflix Clone</h3>
+                        <label>ReactJS, Tailwind CSS, Firebase</label>
+                    </div>
+                    <div class="project-box">
+                        <img src="./images/secrets-app.png">
+                        <h3 style="padding-top: 6px; font-weight: bold;">Secrets App</h3>
+                        <label>NodeJS, ExpressJS, EJS</label>
+                    </div>
+                </div>
+            </section>
+
+            <!-- -------------- CONTACT BOX ---------------- -->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Get in touch</h1>
+                    <span>Do you have an opening, want to hire or a project in your mind, Contact me here</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Contact Me <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i> Email: manishkush.rnc@gmail.com</p>
+                            <p><i class="uil uil-phone"></i> Phone: +91 7258035511</p>
+                            <div class="footer-social-icons">
+                                <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                                <div class="icon"><i class="uil uil-dribbble"></i></div>
+                                <div class="icon"><i class="uil uil-github-alt"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <form id="contact-form">
+                            <div class="form-control">
+                                <div class="form-inputs">
+                                    <input type="text" class="input-field" name="from_name"
+                                        placeholder="Enter your Name" required>
+                                    <input type="email" class="input-field" name="from_email"
+                                        placeholder="Enter your Email" required>
+                                </div>
+                                <div class="text-area">
+                                    <textarea class="p-4" name="message" placeholder="Write your Message"
+                                        required></textarea>
+                                </div>
+                                <div class="form-button">
+                                    <button type="submit" class="btn">Send <i class="uil uil-message"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- --------------- FOOTER --------------- -->
+        <footer>
+            <div class="top-footer">
+                <p>Manish Kumar</p>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Manish Kumar</a> - All rights
+                    reserved</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script> <!-- for emailJS service -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
